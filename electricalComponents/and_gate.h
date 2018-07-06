@@ -4,8 +4,8 @@ class and_gate{
 
 public:
   and_gate(float EBvolt1, float EBvolt2, float Vin, float ECB);
-  void setEBVolt1();
-  void setEBVolt2();
+  void setInputs(float i1, float i2);
+  void calculateOutput();
   float getOutput();
 
 private:
