@@ -1,3 +1,5 @@
+#ifndef TRANSISTOR_H
+#define TRANSISTOR_H
 
 class transistor{
 public:
@@ -14,4 +16,5 @@ private:
   float EBvoltage;
   float ECvoltage;
 };
-  
+
+#endif  
