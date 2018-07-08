@@ -1,8 +1,11 @@
+#ifndef AND_GATE_H
+#define AND_GATE_H
 #include "transistor.h"
 
 class and_gate{
 
 public:
+  and_gate(){};
   and_gate(float EBvolt1, float EBvolt2, float Vin, float ECB);
   void setInputs(float i1, float i2);
   void calculateOutput();
@@ -14,3 +17,5 @@ private:
   float Vin;
   float Vout;
 };
+
+#endif
